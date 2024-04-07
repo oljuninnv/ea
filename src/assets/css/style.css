@@ -1,0 +1,251 @@
+@keyframes vertical-shaking {
+  0% { transform: translateY(0) }
+  25% { transform: translateY(2px) }
+  50% { transform: translateY(-2px) }
+  75% { transform: translateY(2px) }
+  100% { transform: translateY(0) }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+* {-webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section{
+    padding: 20px 0;
+  }
+  
+  .container{
+    padding: 30px 25px; 
+  }
+
+body{
+    margin: 0 ;
+    background: #F9F9F9;
+}
+
+.hero{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero__text__img__over{
+  width: 231px;
+  height: 18px;
+}
+
+.hero__text__img__reviews{
+  width: 301px;
+  height: 31px;
+}
+
+.hero__text__h1{
+  margin:0;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  color: #201f1f;
+}
+
+.hero__text__p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 156%;
+  text-align: justify;
+  color: #676767;
+  opacity: 0.7;
+}
+
+.button__list{
+  display: flex;
+  gap: 10px;
+}
+
+.start{
+  border-radius: 12px;
+  border:none;
+  width: 156px;
+  height: 59px;
+  background: #6c5fbc;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.prof{
+  width: 200px;
+  height: 59px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  color: #6c5fbc;
+  border-radius: 12px;
+  border: solid 1px #6c5fbc; 
+}
+
+.button_animation{
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.button_animation:hover{   
+  transform: translateY(5%);
+}
+
+.button_animation:active{
+  animation: vertical-shaking 0.5s infinite;
+}
+
+.results{
+  margin: 0 auto;
+  background: #5c4eae;
+  color: #fff;
+  align-items: center;
+  background-image:url(../img/HomePage/BG.svg);
+  background-size: 100%;
+}
+
+.results__list{
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  height: max-content;
+  align-items: center;
+}
+
+.results__item{
+  text-align: center;
+}
+
+.results__item__h2{
+  margin: 0 ;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 125%;
+  text-align: center;
+  color: #fff;
+}
+
+.results__item__p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #c5bfed;
+}
+
+.quality{
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.quality__text{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  gap: 10px;
+}
+
+.quality__text__h2{
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #18181b;
+}
+
+.change_color{
+  color: #6c5fbc;
+}
+
+.quality__list{
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.quality__item{
+  margin: 0;
+  font-weight: 400;
+  color: #676767;
+  list-style:inside;
+}
+
+.quality__button{
+  border-radius: 15px;
+  border: none;
+  width: 12rem;
+  height: 4rem;
+  background: #6c5fbc;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  text-transform: capitalize;
+  text-align: center;
+  color: #fff;
+}
+
+.style__h2{
+  font-weight: 600;
+  font-size: 45px;
+  color: #323142;
+  text-align: center;
+}
+
+.restuarants__list{
+  margin: 0 auto;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.restuarants__item{
+  width: 12rem;
+  height: 15rem;
+  border: 1.25px solid #f4f4f6;
+  border-radius: 30px;
+  border: none ;
+  box-shadow: 6px 71px 36px 0 rgba(229, 229, 229, 0.7);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.view-more{
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.01em;
+  color: #acadb9;
+  text-align: right;
+}
+
+.subscribe{
+  margin: 0 auto;
+  background-image: url(../img/HomePage/subscribe.svg);
+  background: #5c4eae;
+  width: 50%;
+}

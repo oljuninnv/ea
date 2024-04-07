@@ -1,0 +1,128 @@
+
+
+footer{
+    height: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(234, 234, 234, 1);
+    margin: 50px 0 0 0;
+}
+
+
+
+.contanerElement{
+    width: 1248px;
+    height: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}    
+.fotoElement{
+    width: 1248px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 1px solid #cbcbcb; */
+}
+hr{
+    width: 1248px;
+    border: 1px solid;
+    border-color: #cbcbcb;
+}
+.contacsElement{
+    width: 1248px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list{
+    width: max-content;
+}
+.list{
+    display: flex;
+    gap: 38px;
+}
+.textElement{
+    color: rgba(153, 153, 153, 1);
+    font-family: Inter;
+    font-size: 12.09px;
+    font-weight: 500;
+    line-height: 17.78px;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 768px){
+    footer{
+        display: flex;
+        height: 426px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.contanerElementMobil{
+    width: 80%;
+    height: 80%;
+}
+.logoElement{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.listMobil{
+    display: flex;
+    gap: 20px;
+}
+.navElement{
+    width: 100%;
+    height: 166px;
+    margin: 0 0 32px 0;
+}
+.navList{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0;
+    margin: 53px 0 0 0;
+}
+.itemNavList{
+    text-transform: capitalize;
+    color: rgba(96, 96, 96, 1);
+    text-transform: uppercase;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18.88px;
+    text-align: left;
+}
+
+.separatorMobil{
+    width: 314px;
+    border: 1px solid;
+    border-color: #cbcbcb;
+}
+.textElementMobil{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textMobil{
+    font-family: "Inter", sans-serif;
+    font-size: 13.54px;
+    font-weight: 500;
+    line-height: 19.91px;
+    text-align: left;
+    color: rgba(112, 121, 139, 1);
+}
